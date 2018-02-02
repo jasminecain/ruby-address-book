@@ -34,7 +34,7 @@ class AddressBook
     contacts.each do |contact|
       contact.phone_numbers.each do |phone_number|
         if phone_number.number.gsub("-", "").include?(search)
-          results.push(contact)
+          results.push(contact) unless results.include?(contact)
         end
       end
     end
