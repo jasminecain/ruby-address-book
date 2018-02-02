@@ -2,34 +2,6 @@
 - !ruby/object:Contact
   phone_numbers: []
   addresses: []
-  first_name: Jas
-  middle_name: ''
-  last_name: Q
-- !ruby/object:Contact
-  phone_numbers: []
-  addresses: []
-  first_name: Jazzy
-  middle_name: ''
-  last_name: Q
-- !ruby/object:Contact
-  phone_numbers: []
-  addresses: []
   first_name: Home
   middle_name: g
   last_name: h
-- !ruby/object:Contact
-  phone_numbers:
-  - !ruby/object:PhoneNumber
-    kind: Home
-    number: 134-111-1345
-  addresses:
-  - !ruby/object:Address
-    kind: Home
-    street_1: 342 One wat
-    street_2: ''
-    city: Nashville
-    state: TN
-    postal_code: '34255'
-  first_name: Jazzy
-  middle_name: ''
-  last_name: Q
